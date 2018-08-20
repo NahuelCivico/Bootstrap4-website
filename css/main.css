@@ -1,0 +1,62 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: white;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 7px;
+    border-right: 2px solid white;
+}
+
+body{
+    background: linear-gradient(132deg, #ec5218, #1665c1);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+}
+
+@keyframes BackgroundGradient{
+    0% {background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+
+i{
+    color: white;
+    font-size: 18px;
+}
+
+img{
+    width: 100%;
+}
+
+footer{
+    background-color: #242729
+}
+
+hr{
+    background-color: white;
+}
+
+#header{
+    margin-top: 100px;
+}
+
+#testimonial{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 50px 0px 30px 0 px;
+}
+
+.footer-title{
+    border-bottom: 1px solid #242729;
+    width: 50%;
+}
+
+.footer-p{
+    color: white;
+}
